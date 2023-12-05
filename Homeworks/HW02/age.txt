@@ -1,0 +1,15 @@
+age -
+workclass - le	
+fnlwgt	-
+education - le	
+education_num - 	
+marital_status - le	
+occupation - le	
+relationship - le	
+race - le	
+sex - le	
+capital_gain -	
+capital_loss -	
+hours_per_week -	
+native_country - le	
+income - le
