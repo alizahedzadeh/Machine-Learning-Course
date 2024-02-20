@@ -1,0 +1,16 @@
+Model Name,Optimizer,Learning Rate Schedular,Data Augmentation,Training Accuracy,Training Loss,Validation Accuracy,Validation Loss,Precision,Recall,F1-Score
+CNN from Scratch,"SGD(learning_rate=0.001, momentum=0.9)",Nothing,Nothing,0.9263,0.232,0.7432,0.59,0.509,0.5088,0.5074
+ResNet-152,"SGD(learning_rate=0.001, momentum=0.9)",Nothing,Nothing,0.5772,0.6794,0.5602,0.6778,0.4896,0.4896,0.4894
+MobileNet,"SGD(learning_rate=0.001, momentum=0.9)",Nothing,Nothing,0.5307,0.6867,0.573,0.6854,0.512,0.512,0.512
+CNN from Scratch,"SGD(learning_rate=0.001, momentum=0.9)",Nothing,Random Rotation,0.7603,0.4888,0.6806,0.6292,0.504,0.504,0.5039
+CNN from Scratch,"SGD(learning_rate=0.001, momentum=0.9)",Nothing,Gaussian Blur,0.8184,0.4005,0.6421,0.6863,0.4855,0.488,0.4622
+CNN from Scratch,"SGD(learning_rate=0.001, momentum=0.9)",Nothing,Random Flip,0.7703,0.4751,0.6388,0.6827,0.5042,0.504,0.5015
+CNN from Scratch,"SGD(learning_rate=0.001, momentum=0.9)",Nothing,Color Jitter,0.915,0.2514,0.5072,11.3654,0.5004,0.5008,0.348
+CNN from Scratch,"SGD(learning_rate=0.001, momentum=0.9)",Nothing,Random Crop,0.7271,0.5238,0.6164,0.7823,0.4909,0.4912,0.4842
+CNN from Scratch,Adam(learning_rate=0.001),Nothing,Nothing,0.7279,0.5348,0.6709,0.6315,0.4912,0.4912,0.4912
+CNN from Scratch,"AdamW(learning_rate=0.001, weight_decay=0.01)",Nothing,Nothing,0.4998,0.6932,0.4992,0.6931,0.2492,0.4992,0.3324
+CNN from Scratch,RMSprop(learning_rate=0.001),Nothing,Nothing,0.7335,0.5469,0.6356,0.8005,0.518,0.5169,0.5102
+CNN from Scratch,Adam(learning_rate=0.001),LinearLR,Nothing,0.7142,0.5461,0.6533,0.6474,0.4799,0.4799,0.4791
+CNN from Scratch,Adam(learning_rate=0.001),ExponentialLR,Nothing,0.6649,0.6209,0.6035,0.6595,0.4623,0.4623,0.4623
+CNN from Scratch,Adam(learning_rate=0.001),CyclicLR,Nothing,0.6697,0.6059,0.5201,1.1361,0.4922,0.4928,0.4866
+CNN from Scratch,Adam(learning_rate=0.001),StepLR,Nothing,0.7162,0.5518,0.5441,1.3009,0.4415,0.4607,0.4136
